@@ -27,7 +27,7 @@ def initial_round
     y = deal_card
     card_total = x + y
     puts display_card_total(card_total)
-    return display_card_total(card_total)
+    return display_card_total(card_total) #once you have figured out the sum of your two cards, you can pass the total in as an argumnt so your phrase is displayed.
 end
 
 
